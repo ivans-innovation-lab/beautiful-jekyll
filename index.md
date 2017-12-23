@@ -5,7 +5,7 @@ subtitle: Architecture, culture and process
 bigimg:
   - "/img/architecture.jpg" : "Architecture"
   - "/img/innovate.jpg" : "Innovate"
-  - "/img/trust.jpg" : "Trust"
+  - "/img/digital-transformation.jpg" : "Digital transformation"
 ---
 
 The intention of this lab is to build information system of fictitious company. We are going to use different architectural and design patterns, organizational structures and delivery process to support this.
