@@ -3,8 +3,9 @@ layout: page
 title: Lab
 subtitle: Architecture, culture and process
 bigimg:
-  - "/img/arch.png" : "Architecture"
-  - "/img/process.png" : "Continuous Delivery"
+  - "/img/architecture2.jpg" : "Architecture"
+  - "/img/innovate.png" : "Innovate"
+  - "/img/trust.png" : "Trust"
 ---
 
 The intention of this lab is to build information system of fictitious company. We are going to use different architectural and design patterns, organizational structures and delivery process to support this.
