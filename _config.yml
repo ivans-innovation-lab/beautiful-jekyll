@@ -23,7 +23,6 @@ description: Architecture, culture and process
 
 # List of links in the navigation bar
 navbar-links:
-  Blog: "blog"
   Projects: "projects"
   Documentation:
     - Book: "https://www.gitbook.com/read/book/ivans-innovation-lab/my-company"
@@ -76,7 +75,7 @@ author:
 
 # Select which links to show in the footer
 footer-links-active:
-  rss: true
+  rss: false
   facebook: false
   email: true
   twitter: true
