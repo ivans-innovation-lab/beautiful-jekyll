@@ -3,7 +3,7 @@ layout: page
 title: Lab
 subtitle: Architecture, culture and process
 bigimg:
-  - "/img/architecture2.jpg" : "Architecture"
+  - "/img/architecture.jpg" : "Architecture"
   - "/img/innovate.jpg" : "Innovate"
   - "/img/trust.jpg" : "Trust"
 ---
