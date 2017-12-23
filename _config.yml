@@ -115,7 +115,7 @@ url-pretty: "lab.idugalic.pro"  # eg. "deanattali.com/beautiful-jekyll"
 disqus: "idugalic"
 
 # Fill in your Google Analytics ID to track your website using GA
-#google_analytics: ""
+google_analytics: "UA-111584846-1"
 
 # Google Tag Manager ID
 #gtm: ""
