@@ -19,18 +19,6 @@ You will learn how to:
 
 The ultimate goal is to deliver better software faster. Today, that invariably means continuous delivery – for an installed product – or continuous deployment for an -aaS product. [Read more ...](https://www.gitbook.com/read/book/ivans-innovation-lab/my-company)
 
-
-### Technology
-
-- Java 8
-- Spring (spring boot, spring cloud, spring data, spring data rest)
-- Axonframework (eventsourcing, CQRS)
-- Angular 4+ (atomic design)
-- CircleCI (Continuous Integration)
-- Atomist (ChatOps)
-- H2, MySQL (event store, materialized views)
-- RabbitMQ (event bus in micorservices architecture)
-
 -----------------------------------------------------
 
 <div id="CommunityInviter"></div>

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Projects
-subtitle: Ivan's innovation lab
+subtitle: Architecture, culture and process
 ---
 
 Each project has its own git repository. Repositories are hosted on Github within the ['ivans-innovation-lab' organziation](https://github.com/ivans-innovation-lab).
