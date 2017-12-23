@@ -18,24 +18,3 @@ You will learn how to:
 - make a foundation for successful digitalization.
 
 The ultimate goal is to deliver better software faster. Today, that invariably means continuous delivery – for an installed product – or continuous deployment for an -aaS product. [Read more ...](https://www.gitbook.com/read/book/ivans-innovation-lab/my-company)
-
------------------------------------------------------
-
-<div id="CommunityInviter"></div>
-<script>
-  window.CommunityInviterAsyncInit = function () {
-    CommunityInviter.init({
-      app_url:'idugalic',
-      team_id:'idugalic'
-   })
-  };
-
-  (function(d, s, id){
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) {return;}
-    js = d.createElement(s); js.id = id;
-    js.src = "https://communityinviter.com/js/communityinviter.js";
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'Community_Inviter'));
-</script>
-
