@@ -1,2 +1,2 @@
-# Ivan's lab - site
+# Ivan's innovation lab - site
 
