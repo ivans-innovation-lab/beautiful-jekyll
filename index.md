@@ -49,5 +49,3 @@ The ultimate goal is to deliver better software faster. Today, that invariably m
   }(document, 'script', 'Community_Inviter'));
 </script>
 
-[Read more ...](https://www.gitbook.com/read/book/ivans-innovation-lab/my-company)
-
