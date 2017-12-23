@@ -18,10 +18,6 @@ You will learn how we:
 
 The ultimate goal is to deliver better software faster. Today, that invariably means continuous delivery – for an installed product – or continuous deployment for an -aaS product.
 
-![Success triangle](https://github.com/ivans-innovation-lab/ivans-innovation-lab.github.io/raw/master/img/successtriangle.png)
-
-The architecture enables teams to be agile and autonomous. Together, the team of teams and the architecture enable continuous delivery/deployment. 
-
 ### Technology
 
 - Java 8
@@ -33,7 +29,6 @@ The architecture enables teams to be agile and autonomous. Together, the team of
 - H2, MySQL (event store, materialized views)
 - RabbitMQ (event bus in micorservices architecture)
 
-[Read more](https://www.gitbook.com/read/book/ivans-innovation-lab/my-company) and [join our Slack team](https://communityinviter.com/apps/idugalic/idugalic)
 
 
 <div id="CommunityInviter"></div>
@@ -53,4 +48,6 @@ The architecture enables teams to be agile and autonomous. Together, the team of
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'Community_Inviter'));
 </script>
+
+[Read more ...](https://www.gitbook.com/read/book/ivans-innovation-lab/my-company)
 
