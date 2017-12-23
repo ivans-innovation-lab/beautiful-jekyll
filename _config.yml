@@ -23,6 +23,7 @@ description: Architecture, culture and process
 
 # List of links in the navigation bar
 navbar-links:
+# Blog: "blog"
   Technology: "technology"
   Projects: "projects"
   Documentation:
