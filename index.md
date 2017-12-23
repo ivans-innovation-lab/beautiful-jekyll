@@ -11,7 +11,6 @@ bigimg:
 The intention of this lab is to build information system of fictitious company. We are going to use different architectural and design patterns, organizational structures and delivery process to support this.
 
 You will learn how we:
-
 - made decisions to use one pattern against the other,
 - changed architecture, organization (culture) and process over time to respond to new requirements,
 - made a foundation for successful digitalization.
