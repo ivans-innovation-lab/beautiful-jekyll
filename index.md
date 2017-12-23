@@ -16,7 +16,8 @@ You will learn how we:
 - changed architecture, organization (culture) and process over time to respond to new requirements,
 - made a foundation for successful digitalization.
 
-The ultimate goal is to deliver better software faster. Today, that invariably means continuous delivery – for an installed product – or continuous deployment for an -aaS product.
+The ultimate goal is to deliver better software faster. Today, that invariably means continuous delivery – for an installed product – or continuous deployment for an -aaS product. [Read more ...](https://www.gitbook.com/read/book/ivans-innovation-lab/my-company)
+
 
 ### Technology
 
@@ -29,7 +30,7 @@ The ultimate goal is to deliver better software faster. Today, that invariably m
 - H2, MySQL (event store, materialized views)
 - RabbitMQ (event bus in micorservices architecture)
 
-
+-----------------------------------------------------
 
 <div id="CommunityInviter"></div>
 <script>
