@@ -27,6 +27,9 @@ navbar-links:
   Documentation:
     - Book: "https://www.gitbook.com/read/book/ivans-innovation-lab/my-company"
     - Diagrams: "https://structurizr.com/share/36994#Context"
+  Tools:
+    - Maven repository: "http://maven.idugalic.pro"
+    - Docker hub: "https://hub.docker.com/u/idugalic"
   Author's home: "https://idugalic.github.io/"
 
 # Image to show in the navigation bar - image must be a square (width = height)
@@ -43,7 +46,7 @@ avatar: "https://avatars3.githubusercontent.com/u/19243498?v=3&s=200"
 # has a white background. You can specify a different background colour or a background image
 # for the navigation bar, the main page, and the footer.
 # navbar-col: "orange"
-# navbar-img: "/img/bgimage.png"
+navbar-img: "/img/bgimage.png"
 # footer-col: "blue"
 # footer-img: "/img/bgimage.png"
 # page-col: "#FF0000"
