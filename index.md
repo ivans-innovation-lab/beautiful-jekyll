@@ -2,6 +2,9 @@
 layout: page
 title: Lab
 subtitle: Architecture, culture and process
+bigimg:
+  - "/img/my-company-dependencies.png" : "My Company Dependencies"
+  - "/img/successtriangle.png" : "Architecture, Process, Organization"
 ---
 
 The intention of this lab is to build information system of fictitious company. We are going to use different architectural and design patterns, organizational structures and delivery process to support this.
