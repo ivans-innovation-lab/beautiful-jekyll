@@ -132,8 +132,3 @@ Visualize the architecture with [Structurizr](https://structurizr.com) ([4C mode
  - [Monolithic](https://structurizr.com/share/36994#Context)
  - [Microservices](https://structurizr.com/share/22311#Context)
 
-Need Help?  [Join our Slack team][slack].
-
-[idugalic]: http://idugalic.pro
-[lab]: http://lab.idugalic.pro
-[slack]: https://communityinviter.com/apps/idugalic/idugalic
