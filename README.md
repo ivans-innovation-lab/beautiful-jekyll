@@ -1,2 +1,2 @@
-# Ivan's innovation lab - site
+# Ivan's innovation lab - Github pages
 
