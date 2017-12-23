@@ -202,6 +202,26 @@
           </li>
           {% endif %}
         </ul>
+        <p>
+          <div id="CommunityInviter"></div>
+<script>
+  window.CommunityInviterAsyncInit = function () {
+    CommunityInviter.init({
+      app_url:'idugalic',
+      team_id:'idugalic'
+   })
+  };
+
+  (function(d, s, id){
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) {return;}
+    js = d.createElement(s); js.id = id;
+    js.src = "https://communityinviter.com/js/communityinviter.js";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'Community_Inviter'));
+</script>
+
+        </p>
         <p class="copyright text-muted">
 		  {{ site.author.name }}
 		  &nbsp;&bull;&nbsp;
@@ -211,7 +231,8 @@
 		  &nbsp;&bull;&nbsp;
 		  <a href="{{ site.url }}">{{ site.url-pretty }}</a>
 		  {% endif %}
-	    </p>
+      </p>
+      
 	        <!-- Please don't remove this, keep my open source work credited :) -->
 		<p class="theme-by text-muted">
 		  Theme by
