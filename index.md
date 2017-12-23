@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Ivan's innovation lab
+title: Lab
 subtitle: Architecture, culture and process
 ---
 
