@@ -21,8 +21,7 @@ This version of the application is deployed as a single monolithic application o
 
 ## [my-company-monolith (backend)](https://ivans-innovation-lab.github.io/my-company-monolith) [![CircleCI](https://circleci.com/gh/ivans-innovation-lab/my-company-monolith.svg?style=svg)](https://circleci.com/gh/ivans-innovation-lab/my-company-monolith)
 
-### Tags
-Spring Boot. CQRS. Eventsourcing. Axonframework. Event-driven. Docker. REST API.
+*Spring Boot. CQRS. Eventsourcing. Axonframework. Event-driven. Docker. REST API.*
 
 ### Description
 Application consist of many components. There are two types of components:
