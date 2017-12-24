@@ -8,7 +8,7 @@ Each project has its own git repository. Repositories are hosted on Github withi
 
 Apache Maven is used as a project management and comprehension tool. Maven supports project aggregation in addition to project inheritance. Maven processes projects with multiple modules so you can work with them more effectively.
 
-Domain Driven Design is applied through Event Sourcing and CQRS. How Event Sourcing enables deployment flexibility - the monolithic application can be migrated and deployed as a microservices.
+Domain Driven Design is applied through Event Sourcing and CQRS. How Event Sourcing enables deployment flexibility - **the application can be deployed as a monolithic or as a microservices**.
 
 Please read the [Documentation](https://www.gitbook.com/read/book/ivans-innovation-lab/my-company).
 
@@ -16,12 +16,26 @@ Please read the [Documentation](https://www.gitbook.com/read/book/ivans-innovati
 
 # Monolith
 
-This version of the application is deployed as a single monolithic application. It exposes a REST API consumed by [my-company-angular-fe](https://ivans-innovation-lab.github.io/my-company-angular-fe) application.
+This version of the application is deployed as a single monolithic application on the backend and an Angular application on the frontend.
 
-## [my-company-monolith](https://ivans-innovation-lab.github.io/my-company-monolith) [![CircleCI](https://circleci.com/gh/ivans-innovation-lab/my-company-monolith.svg?style=svg)](https://circleci.com/gh/ivans-innovation-lab/my-company-monolith)
+## [my-company-monolith (backend)](https://ivans-innovation-lab.github.io/my-company-monolith) [![CircleCI](https://circleci.com/gh/ivans-innovation-lab/my-company-monolith.svg?style=svg)](https://circleci.com/gh/ivans-innovation-lab/my-company-monolith)
+
+### Tags
 Spring Boot. CQRS. Eventsourcing. Axonframework. Event-driven. Docker. REST API.
 
-### dependencies
+### Description
+Application consist of many components. There are two types of components:
+
+- command-side (domain) and a 
+- query-side (materialized view) 
+
+This is CQRS in its most literal form.
+
+Communication between the two components is event-driven and the demo uses simple event store (Database in this case - JPA) as a means of passing the events between components.
+
+Additionally, application exposes a REST API that is consumed by [my-company-angular-fe](https://ivans-innovation-lab.github.io/my-company-angular-fe) application.
+
+### Components (Dependencies)
 - [my-company-blog-domain](https://ivans-innovation-lab.github.io/my-company-blog-domain)
 - [my-company-blog-materialized-view](https://ivans-innovation-lab.github.io/my-company-blog-materialized-view)
 - [my-company-project-domain](https://ivans-innovation-lab.github.io/my-company-project-domain)
@@ -30,41 +44,62 @@ Spring Boot. CQRS. Eventsourcing. Axonframework. Event-driven. Docker. REST API.
 - [my-company-team-materialized-view](https://ivans-innovation-lab.github.io/my-company-team-materialized-view)
 
 
-##  [my-company-angular-fe](https://ivans-innovation-lab.github.io/my-company-angular-fe) [![CircleCI](https://circleci.com/gh/ivans-innovation-lab/my-company-angular-fe.svg?style=svg)](https://circleci.com/gh/ivans-innovation-lab/my-company-angular-fe)
-Angular 4. Atomic design methodology. Feature and presentational components. Consumes [my-company-monolith](https://ivans-innovation-lab.github.io/my-company-monolith)
+##  [my-company-angular-fe (frontend)](https://ivans-innovation-lab.github.io/my-company-angular-fe) [![CircleCI](https://circleci.com/gh/ivans-innovation-lab/my-company-angular-fe.svg?style=svg)](https://circleci.com/gh/ivans-innovation-lab/my-company-angular-fe)
+
+### Tags
+Angular 4. Atomic design methodology. Feature and presentational components.
+
+### Description
+The application consumes a [my-company-monolith (backend)](https://ivans-innovation-lab.github.io/my-company-monolith) that exposes a JWT enabled authorization (OAuth2) endpoints for managing (CRUD operations) `blog posts`, `projects` and `teams`.
 
 # Microservices
 
 This version of the application is deployed as a microservices.
 
-This projects are intended to demonstrate end-to-end best practices for building a cloud native, event driven microservice architecture using Spring Cloud.
+This projects are intended to demonstrate end-to-end best practices for building a cloud native, event driven microservice architecture.
 
 ## [my-company-blog-domain-microservice](https://ivans-innovation-lab.github.io/my-company-blog-domain-microservice) [![CircleCI](https://circleci.com/gh/ivans-innovation-lab/my-company-blog-domain-microservice.svg?style=svg)](https://circleci.com/gh/ivans-innovation-lab/my-company-blog-domain-microservice)
 
-BlogPost, command side microservice.
+### Tags
+Command side. REST API. Blog post. Microservice.
 
-### dependencies
+### Description
+Application exposes a REST API for sending commands related to `BlogPost` aggregate.
+
+### Components (Dependencies)
 - [my-company-blog-domain](https://ivans-innovation-lab.github.io/my-company-blog-domain)
 
 ## [my-company-blog-materialized-view-microservice](https://ivans-innovation-lab.github.io/my-company-blog-materialized-view-microservice) [![CircleCI](https://circleci.com/gh/ivans-innovation-lab/my-company-blog-materialized-view-microservice.svg?style=svg)](https://circleci.com/gh/ivans-innovation-lab/my-company-blog-materialized-view-microservice)
 
-BlogPost, query side microservice.
+### Tags
+Query side. REST API. Blog post. Microservice.
 
-### dependencies
+### Description
+Application exposes a REST API for querying the `BlogPost` materialized views.
+
+### Components (Dependencies)
 - [my-company-blog-materialized-view](https://ivans-innovation-lab.github.io/my-company-blog-materialized-view)
 
 ## [my-company-project-domain-microservice](https://ivans-innovation-lab.github.io/my-company-project-domain-microservice) [![CircleCI](https://circleci.com/gh/ivans-innovation-lab/my-company-project-domain-microservice.svg?style=svg)](https://circleci.com/gh/ivans-innovation-lab/my-company-project-domain-microservice)
 
-Project, command side microservice.
+### Tags
+Command side. REST API. Project. Microservice.
 
-### dependencies
+### Description
+Application exposes a REST API for sending commands related to `Project` aggregate.
+
+### Components (Dependencies)
  - [my-company-project-domain](https://ivans-innovation-lab.github.io/my-company-project-domain)
 
 ## [my-company-project-materialized-view-microservice](https://ivans-innovation-lab.github.io/my-company-project-materialized-view-microservice) [![CircleCI](https://circleci.com/gh/ivans-innovation-lab/my-company-project-materialized-view-microservice.svg?style=svg)](https://circleci.com/gh/ivans-innovation-lab/my-company-project-materialized-view-microservice)
 
-Project, query side microservice.
+### Tags
+Query side. REST API. Project. Microservice.
 
-### dependencies
+### Description
+Application exposes a REST API for querying the `Project` materialized views.
+
+### Components (Dependencies)
 - [my-company-project-materialized-view](https://ivans-innovation-lab.github.io/my-company-project-materialized-view)
 
 ## [my-company-registry-backingservice](https://ivans-innovation-lab.github.io/my-company-registry-backingservice) [![CircleCI](https://circleci.com/gh/ivans-innovation-lab/my-company-registry-backingservice.svg?style=svg)](https://circleci.com/gh/ivans-innovation-lab/my-company-registry-backingservice)
@@ -87,7 +122,7 @@ Implementation of an API gateway that is the single entry point for all clients.
 
 A simple application to manage and monitor microservices.
 
-# Libraries/Components
+# Components (Libraries)
 
 ## [my-company-blog-domain](https://ivans-innovation-lab.github.io/my-company-blog-domain) [![CircleCI](https://circleci.com/gh/ivans-innovation-lab/my-company-blog-domain.svg?style=svg)](https://circleci.com/gh/ivans-innovation-lab/my-company-blog-domain)  [![release](http://github-release-version.herokuapp.com/github/ivans-innovation-lab/my-company-blog-domain/release.svg?style=flat)](https://github.com/ivans-innovation-lab/my-company-blog-domain/releases/latest)
 BlogPost aggregate. Command side. Spring Boot. CQRS. Eventsourcing. Axonframework.
