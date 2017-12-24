@@ -14,6 +14,7 @@ Please read the [Documentation](https://www.gitbook.com/read/book/ivans-innovati
 
 ![Dependiencies - tree](https://github.com/ivans-innovation-lab/ivans-innovation-lab.github.io/raw/master/img/my-company-dependencies.png)
 
+---
 # Monolith
 
 This version of the application is deployed as a single monolithic application on the backend and an Angular application on the frontend.
@@ -52,11 +53,10 @@ Angular 4. Atomic design methodology. Feature and presentational components.
 ### Description
 The application consumes a [my-company-monolith (backend)](https://ivans-innovation-lab.github.io/my-company-monolith) that exposes a JWT enabled authorization (OAuth2) endpoints for managing (CRUD operations) `blog posts`, `projects` and `teams`.
 
+---
 # Microservices
 
-This version of the application is deployed as a microservices.
-
-This projects are intended to demonstrate end-to-end best practices for building a cloud native, event driven microservice architecture.
+This version of the application is deployed as a microservices and it demonstrates end-to-end best practices for building a cloud native, event driven microservice architecture.
 
 ## [my-company-blog-domain-microservice](https://ivans-innovation-lab.github.io/my-company-blog-domain-microservice) [![CircleCI](https://circleci.com/gh/ivans-innovation-lab/my-company-blog-domain-microservice.svg?style=svg)](https://circleci.com/gh/ivans-innovation-lab/my-company-blog-domain-microservice)
 
@@ -104,24 +104,45 @@ Application exposes a REST API for querying the `Project` materialized views.
 
 ## [my-company-registry-backingservice](https://ivans-innovation-lab.github.io/my-company-registry-backingservice) [![CircleCI](https://circleci.com/gh/ivans-innovation-lab/my-company-registry-backingservice.svg?style=svg)](https://circleci.com/gh/ivans-innovation-lab/my-company-registry-backingservice)
 
+### Tags
+Service registry. Backingservice. Client side load balancing
+
+### Description
 Netflix Eureka is a service registry. It provides a REST API for service instance registration management and for querying available instances. Netflix Ribbon is an IPC client that works with Eureka to load balance(client side) requests across the available service instances.
 
 ## [my-company-configuration-backingservice](https://ivans-innovation-lab.github.io/my-company-configuration-backingservice) [![CircleCI](https://circleci.com/gh/ivans-innovation-lab/my-company-configuration-backingservice.svg?style=svg)](https://circleci.com/gh/ivans-innovation-lab/my-company-configuration-backingservice)
 
+### Tags
+Configuration service. Backingservice.
+
+### Description
 The configuration service is a vital component of any microservices architecture. Based on the twelve-factor app methodology, configurations for your microservice applications should be stored in the environment and not in the project.
 
 ## [my-company-authserver-backingservice](https://ivans-innovation-lab.github.io/my-company-authserver-backingservice) [![CircleCI](https://circleci.com/gh/ivans-innovation-lab/my-company-authserver-backingservice.svg?style=svg)](https://circleci.com/gh/ivans-innovation-lab/my-company-authserver-backingservice)
 
+### Tags
+Authorization server. Backingservice.
+
+### Description
 Authorization server for issuing tokens and authorize requests.
 
 ## [my-company-api-gateway-backingservice](https://ivans-innovation-lab.github.io/my-company-api-gateway-backingservice) [![CircleCI](https://circleci.com/gh/ivans-innovation-lab/my-company-api-gateway-backingservice.svg?style=svg)](https://circleci.com/gh/ivans-innovation-lab/my-company-api-gateway-backingservice)
 
+### Tags
+API gateway. Backingservice.
+
+### Description
 Implementation of an API gateway that is the single entry point for all clients. The API gateway handles requests in one of two ways. Some requests are simply proxied/routed to the appropriate service. It handles other requests by fanning out to multiple services.
 
 ## [my-company-adminserver-backingservice](https://ivans-innovation-lab.github.io/my-company-adminserver-backingservice) [![CircleCI](https://circleci.com/gh/ivans-innovation-lab/my-company-adminserver-backingservice.svg?style=svg)](https://circleci.com/gh/ivans-innovation-lab/my-company-adminserver-backingservice)
 
+### Tags
+Admin server. Backingservice.
+
+### Description
 A simple application to manage and monitor microservices.
 
+---
 # Components (Libraries)
 
 ## [my-company-blog-domain](https://ivans-innovation-lab.github.io/my-company-blog-domain) [![CircleCI](https://circleci.com/gh/ivans-innovation-lab/my-company-blog-domain.svg?style=svg)](https://circleci.com/gh/ivans-innovation-lab/my-company-blog-domain)  [![release](http://github-release-version.herokuapp.com/github/ivans-innovation-lab/my-company-blog-domain/release.svg?style=flat)](https://github.com/ivans-innovation-lab/my-company-blog-domain/releases/latest)
