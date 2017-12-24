@@ -6,7 +6,7 @@ subtitle: Architecture, culture and process
 
 ### Language
 - [Java 8](https://java.com/en/)
-- [TypeScript] (angular and atomist automations)(https://www.typescriptlang.org/)
+- [TypeScript (angular and atomist automations)](https://www.typescriptlang.org/)
 
 ### Frameworks and Platforms
 - [Spring (spring boot, spring cloud, spring data, spring data rest)](https://spring.io/)
