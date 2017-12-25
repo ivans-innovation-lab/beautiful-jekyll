@@ -11,7 +11,7 @@ subtitle: Architecture, culture and process
 ### Frameworks and Platforms
 - [Spring (spring boot, spring cloud, spring data, spring data rest)](https://spring.io/)
 - [Axonframework (eventsourcing, CQRS)](https://axoniq.io/)
-- [Angular 4+ (atomic design)](https://angular.io/)
+- [Angular 5 (atomic design)](https://angular.io/)
 
 ### Continuous Integration and Delivery 
 - [CircleCI (Continuous Integration)](https://circleci.com/)
