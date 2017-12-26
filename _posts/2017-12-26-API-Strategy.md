@@ -1,11 +1,10 @@
 ---
 layout: post
 title: API and Business Strategy
-image: /img/hello_world.jpeg
 tags: [Strategy, API, REST, Business]
 ---
 
-The data and services made available via your APIs  (gateway) are consumed by your employees, your customers, or other businesses (B2E, B2C, and B2B).
+The data and services made available via your APIs are consumed by your employees (B2E), your customers (B2C), or other businesses (B2B).
 
 How does a business go about building an API strategy? Is your business seeking to connect with customers, or digitize and streamline internal business processes, or create new channels to work with partners? An understanding of the different kinds of API models, and which one is right for your business, is critical.
 
@@ -19,7 +18,7 @@ The API team is like an internal “partner team,” working with an enterprise�
 
 These developers might be within your company, work at a partner organization, or might operate independently in the outside world. Regardless of where they are innovating, developers represent a new channel, and the better their product (the app), the better the engagement with your end users.
 
-![API strategy - Apigee](https://github.com/ivans-innovation-lab/ivans-innovation-lab.github.io/raw/master/images/apigee.png)
+![API strategy - Apigee](https://raw.githubusercontent.com/ivans-innovation-lab/ivans-innovation-lab.github.io/master/img/apigee.png)
 
 ## The digital value chain: from app-end to back-end
 
