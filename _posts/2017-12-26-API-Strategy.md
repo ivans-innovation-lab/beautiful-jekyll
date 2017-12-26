@@ -4,7 +4,7 @@ title: API and Business Strategy
 tags: [Strategy, API, REST, Business]
 ---
 
-The data and services made available via your APIs are consumed by your employees (B2E), your customers (B2C), or other businesses (B2B).
+The data and services made available via your [APIs](https://en.wikipedia.org/wiki/Application_programming_interface) are consumed by your employees (B2E), your customers (B2C), or other businesses (B2B).
 
 How does a business go about building an API strategy? Is your business seeking to connect with customers, or digitize and streamline internal business processes, or create new channels to work with partners? An understanding of the different kinds of API models, and which one is right for your business, is critical.
 
