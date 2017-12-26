@@ -1,9 +1,8 @@
 ---
 layout: post
 title: API and Business Strategy
-subtitle: Apigee
 image: /img/hello_world.jpeg
-tags: [strategy, API, REST]
+tags: [Strategy, API, REST, Business]
 ---
 
 The data and services made available via your APIs  (gateway) are consumed by your employees, your customers, or other businesses (B2E, B2C, and B2B).
@@ -22,7 +21,7 @@ These developers might be within your company, work at a partner organization, o
 
 ![API strategy - Apigee](https://github.com/ivans-innovation-lab/ivans-innovation-lab.github.io/raw/master/images/apigee.png)
 
-## The digital value chain
+## The digital value chain: from app-end to back-end
 
 Traditionally, enterprise APIs have been associated with “exposure,” which describes the transformation of existing backend capabilities, resources, and data into APIs. But the focus of APIs in the modern enterprise has been expanded to include “consumption,” which grants developers access to those same resources so they can build and deploy apps. Imagine developers being able to explore API, to subscribe, to read statistics data.
 
@@ -59,9 +58,6 @@ Business strategy is about identifying your business objectives and deciding whe
 Moreover, while the business may believe something is a great business opportunity, you don't yet know if your company can successfully deliver on this opportunity. Maybe it will cost too much to build. Maybe customers won't value it enough to pay for it. Maybe it'll be too complicated for users to deal with. This is where api(product) strategy and especially product discovery come into play to find out answers to this questions.
 
 The product strategy speaks to how you hope to deliver on the business strategy.
-
-## Thank you [Apigee](https://apigee.com)
-[Apigee](https://apigee.com) enables companies to realize their API strategies with technology that makes it easier for developers and providers to explore and use APIs. Apigee Edge Enterprise is a robust management platform for the most demanding enterprises. Apigee Edge simplifies managing the digital value chain with comprehensive Developer Services, Analytics Services, and API Services.
 
 ## References
 - https://apigee.com
