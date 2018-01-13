@@ -8,9 +8,7 @@ bigimg:
   - "/img/digital-transformation.jpg" : "Digital transformation"
 ---
 
-Contributing to open source can be a rewarding way to learn, teach, and build experience in just about any skill you can imagine.
-
-The intention of this open source lab is to build information system of fictitious company. We are going to use different architectural and design patterns, organizational structures and delivery process to support this.
+The intention of this open lab is to build information system of a **fictitious company**. We are going to use different architectural and design patterns to support this.
 
 You will learn how to:
 - make decisions to use one pattern against the other,
