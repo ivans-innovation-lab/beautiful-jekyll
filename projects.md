@@ -46,7 +46,7 @@ Additionally, application exposes a REST API that is consumed by [my-company-ang
 
 ##  [my-company-angular-fe (frontend)](https://ivans-innovation-lab.github.io/my-company-angular-fe) [![CircleCI](https://circleci.com/gh/ivans-innovation-lab/my-company-angular-fe.svg?style=svg)](https://circleci.com/gh/ivans-innovation-lab/my-company-angular-fe)
 
-*Angular 4. Atomic design methodology. Feature and presentational components.*
+*Angular 5. Atomic design methodology. Feature and presentational components.*
 
 ### Description
 The application consumes a [my-company-monolith (backend)](https://ivans-innovation-lab.github.io/my-company-monolith) that exposes a JWT enabled authorization (OAuth2) endpoints for managing (CRUD operations) `blog posts`, `projects` and `teams`.
