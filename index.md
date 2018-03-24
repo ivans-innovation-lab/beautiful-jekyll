@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Lab - Multirepo
+title: Lab - Multirepos
 subtitle: Architecture, culture and process
 bigimg:
   - "/img/architecture.jpg" : "Architecture"
