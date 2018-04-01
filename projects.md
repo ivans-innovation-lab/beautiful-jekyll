@@ -6,12 +6,12 @@ subtitle: Architecture, culture and process
 
 The source code of this lab is open, and hosted on Github within the ['ivans-innovation-lab' organziation](https://github.com/ivans-innovation-lab). Each project has its own git repository.
 
-![Dependiencies - tree](https://github.com/ivans-innovation-lab/ivans-innovation-lab.github.io/raw/master/img/my-company-dependencies.png)
-
 ---
 # Monolithic
 
 This version of the application is deployed as a single monolithic application on the backend, and an Angular application on the frontend.
+
+![Dependiencies - tree](https://github.com/ivans-innovation-lab/ivans-innovation-lab.github.io/raw/master/img/monolith-dep.png)
 
 ## [my-company-monolith (backend)](https://ivans-innovation-lab.github.io/my-company-monolith) [![CircleCI](https://circleci.com/gh/ivans-innovation-lab/my-company-monolith.svg?style=svg)](https://circleci.com/gh/ivans-innovation-lab/my-company-monolith)
 
