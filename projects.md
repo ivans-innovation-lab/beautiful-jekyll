@@ -59,7 +59,9 @@ The application consumes a [my-company-monolith (backend)](https://ivans-innovat
 
 This version of the application is deployed as a microservices and it demonstrates end-to-end best practices for building a cloud native, event driven microservice architecture.
 
-## [my-company-blog-domain-microservice](https://ivans-innovation-lab.github.io/my-company-blog-domain-microservice) [![CircleCI](https://circleci.com/gh/ivans-innovation-lab/my-company-blog-domain-microservice.svg?style=svg)](https://circleci.com/gh/ivans-innovation-lab/my-company-blog-domain-microservice)
+![Dependiencies - tree](https://github.com/ivans-innovation-lab/ivans-innovation-lab.github.io/raw/master/img/microservices-dep.png)
+
+## [my-company-blog-domain-microservice (backend)](https://ivans-innovation-lab.github.io/my-company-blog-domain-microservice) [![CircleCI](https://circleci.com/gh/ivans-innovation-lab/my-company-blog-domain-microservice.svg?style=svg)](https://circleci.com/gh/ivans-innovation-lab/my-company-blog-domain-microservice)
 
 *Command side. REST API. Blog post. Microservice.*
 
@@ -69,7 +71,7 @@ Application exposes a REST API for sending commands related to `BlogPost` aggreg
 ### Components (Dependencies)
 - [my-company-blog-domain](https://ivans-innovation-lab.github.io/my-company-blog-domain)
 
-## [my-company-blog-materialized-view-microservice](https://ivans-innovation-lab.github.io/my-company-blog-materialized-view-microservice) [![CircleCI](https://circleci.com/gh/ivans-innovation-lab/my-company-blog-materialized-view-microservice.svg?style=svg)](https://circleci.com/gh/ivans-innovation-lab/my-company-blog-materialized-view-microservice)
+## [my-company-blog-materialized-view-microservice (backend)](https://ivans-innovation-lab.github.io/my-company-blog-materialized-view-microservice) [![CircleCI](https://circleci.com/gh/ivans-innovation-lab/my-company-blog-materialized-view-microservice.svg?style=svg)](https://circleci.com/gh/ivans-innovation-lab/my-company-blog-materialized-view-microservice)
 
 *Query side. REST API. Blog post. Microservice.*
 
@@ -79,7 +81,7 @@ Application exposes a REST API for querying the `BlogPost` materialized views.
 ### Components (Dependencies)
 - [my-company-blog-materialized-view](https://ivans-innovation-lab.github.io/my-company-blog-materialized-view)
 
-## [my-company-project-domain-microservice](https://ivans-innovation-lab.github.io/my-company-project-domain-microservice) [![CircleCI](https://circleci.com/gh/ivans-innovation-lab/my-company-project-domain-microservice.svg?style=svg)](https://circleci.com/gh/ivans-innovation-lab/my-company-project-domain-microservice)
+## [my-company-project-domain-microservice (backend)](https://ivans-innovation-lab.github.io/my-company-project-domain-microservice) [![CircleCI](https://circleci.com/gh/ivans-innovation-lab/my-company-project-domain-microservice.svg?style=svg)](https://circleci.com/gh/ivans-innovation-lab/my-company-project-domain-microservice)
 
 *Command side. REST API. Project. Microservice.*
 
@@ -89,7 +91,7 @@ Application exposes a REST API for sending commands related to `Project` aggrega
 ### Components (Dependencies)
  - [my-company-project-domain](https://ivans-innovation-lab.github.io/my-company-project-domain)
 
-## [my-company-project-materialized-view-microservice](https://ivans-innovation-lab.github.io/my-company-project-materialized-view-microservice) [![CircleCI](https://circleci.com/gh/ivans-innovation-lab/my-company-project-materialized-view-microservice.svg?style=svg)](https://circleci.com/gh/ivans-innovation-lab/my-company-project-materialized-view-microservice)
+## [my-company-project-materialized-view-microservice (backend)](https://ivans-innovation-lab.github.io/my-company-project-materialized-view-microservice) [![CircleCI](https://circleci.com/gh/ivans-innovation-lab/my-company-project-materialized-view-microservice.svg?style=svg)](https://circleci.com/gh/ivans-innovation-lab/my-company-project-materialized-view-microservice)
 
 *Query side. REST API. Project. Microservice.*
 
@@ -99,35 +101,35 @@ Application exposes a REST API for querying the `Project` materialized views.
 ### Components (Dependencies)
 - [my-company-project-materialized-view](https://ivans-innovation-lab.github.io/my-company-project-materialized-view)
 
-## [my-company-registry-backingservice](https://ivans-innovation-lab.github.io/my-company-registry-backingservice) [![CircleCI](https://circleci.com/gh/ivans-innovation-lab/my-company-registry-backingservice.svg?style=svg)](https://circleci.com/gh/ivans-innovation-lab/my-company-registry-backingservice)
+## [my-company-registry-backingservice (backend)](https://ivans-innovation-lab.github.io/my-company-registry-backingservice) [![CircleCI](https://circleci.com/gh/ivans-innovation-lab/my-company-registry-backingservice.svg?style=svg)](https://circleci.com/gh/ivans-innovation-lab/my-company-registry-backingservice)
 
 *Service registry. Backingservice. Client side load balancing*
 
 ### Description
 Netflix Eureka is a service registry. It provides a REST API for service instance registration management and for querying available instances. Netflix Ribbon is an IPC client that works with Eureka to load balance(client side) requests across the available service instances.
 
-## [my-company-configuration-backingservice](https://ivans-innovation-lab.github.io/my-company-configuration-backingservice) [![CircleCI](https://circleci.com/gh/ivans-innovation-lab/my-company-configuration-backingservice.svg?style=svg)](https://circleci.com/gh/ivans-innovation-lab/my-company-configuration-backingservice)
+## [my-company-configuration-backingservice (backend)](https://ivans-innovation-lab.github.io/my-company-configuration-backingservice) [![CircleCI](https://circleci.com/gh/ivans-innovation-lab/my-company-configuration-backingservice.svg?style=svg)](https://circleci.com/gh/ivans-innovation-lab/my-company-configuration-backingservice)
 
 *Configuration service. Backingservice.*
 
 ### Description
 The configuration service is a vital component of any microservices architecture. Based on the twelve-factor app methodology, configurations for your microservice applications should be stored in the environment and not in the project.
 
-## [my-company-authserver-backingservice](https://ivans-innovation-lab.github.io/my-company-authserver-backingservice) [![CircleCI](https://circleci.com/gh/ivans-innovation-lab/my-company-authserver-backingservice.svg?style=svg)](https://circleci.com/gh/ivans-innovation-lab/my-company-authserver-backingservice)
+## [my-company-authserver-backingservice (backend)](https://ivans-innovation-lab.github.io/my-company-authserver-backingservice) [![CircleCI](https://circleci.com/gh/ivans-innovation-lab/my-company-authserver-backingservice.svg?style=svg)](https://circleci.com/gh/ivans-innovation-lab/my-company-authserver-backingservice)
 
 *Authorization server. Backingservice.*
 
 ### Description
 Authorization server for issuing tokens and authorize requests.
 
-## [my-company-api-gateway-backingservice](https://ivans-innovation-lab.github.io/my-company-api-gateway-backingservice) [![CircleCI](https://circleci.com/gh/ivans-innovation-lab/my-company-api-gateway-backingservice.svg?style=svg)](https://circleci.com/gh/ivans-innovation-lab/my-company-api-gateway-backingservice)
+## [my-company-api-gateway-backingservice (backend)](https://ivans-innovation-lab.github.io/my-company-api-gateway-backingservice) [![CircleCI](https://circleci.com/gh/ivans-innovation-lab/my-company-api-gateway-backingservice.svg?style=svg)](https://circleci.com/gh/ivans-innovation-lab/my-company-api-gateway-backingservice)
 
 *API gateway. Backingservice.*
 
 ### Description
 Implementation of an API gateway that is the single entry point for all clients. The API gateway handles requests in one of two ways. Some requests are simply proxied/routed to the appropriate service. It handles other requests by fanning out to multiple services.
 
-## [my-company-adminserver-backingservice](https://ivans-innovation-lab.github.io/my-company-adminserver-backingservice) [![CircleCI](https://circleci.com/gh/ivans-innovation-lab/my-company-adminserver-backingservice.svg?style=svg)](https://circleci.com/gh/ivans-innovation-lab/my-company-adminserver-backingservice)
+## [my-company-adminserver-backingservice (backend)](https://ivans-innovation-lab.github.io/my-company-adminserver-backingservice) [![CircleCI](https://circleci.com/gh/ivans-innovation-lab/my-company-adminserver-backingservice.svg?style=svg)](https://circleci.com/gh/ivans-innovation-lab/my-company-adminserver-backingservice)
 
 *Admin server. Backingservice.*
 
@@ -137,31 +139,31 @@ A simple application to manage and monitor microservices.
 ---
 # Components (Libraries)
 
-## [my-company-blog-domain](https://ivans-innovation-lab.github.io/my-company-blog-domain) [![CircleCI](https://circleci.com/gh/ivans-innovation-lab/my-company-blog-domain.svg?style=svg)](https://circleci.com/gh/ivans-innovation-lab/my-company-blog-domain)  [![release](http://github-release-version.herokuapp.com/github/ivans-innovation-lab/my-company-blog-domain/release.svg?style=flat)](https://github.com/ivans-innovation-lab/my-company-blog-domain/releases/latest)
+## [my-company-blog-domain (backend)](https://ivans-innovation-lab.github.io/my-company-blog-domain) [![CircleCI](https://circleci.com/gh/ivans-innovation-lab/my-company-blog-domain.svg?style=svg)](https://circleci.com/gh/ivans-innovation-lab/my-company-blog-domain)  [![release](http://github-release-version.herokuapp.com/github/ivans-innovation-lab/my-company-blog-domain/release.svg?style=flat)](https://github.com/ivans-innovation-lab/my-company-blog-domain/releases/latest)
 
 *BlogPost aggregate. Command side. Spring Boot. CQRS. Eventsourcing. Axonframework.*
 
-## [my-company-blog-materialized-view](https://ivans-innovation-lab.github.io/my-company-blog-materialized-view) [![CircleCI](https://circleci.com/gh/ivans-innovation-lab/my-company-blog-materialized-view.svg?style=svg)](https://circleci.com/gh/ivans-innovation-lab/my-company-blog-materialized-view) [![release](http://github-release-version.herokuapp.com/github/ivans-innovation-lab/my-company-blog-materialized-view/release.svg?style=flat)](https://github.com/ivans-innovation-lab/my-company-blog-materialized-view/releases/latest)
+## [my-company-blog-materialized-view (backend)](https://ivans-innovation-lab.github.io/my-company-blog-materialized-view) [![CircleCI](https://circleci.com/gh/ivans-innovation-lab/my-company-blog-materialized-view.svg?style=svg)](https://circleci.com/gh/ivans-innovation-lab/my-company-blog-materialized-view) [![release](http://github-release-version.herokuapp.com/github/ivans-innovation-lab/my-company-blog-materialized-view/release.svg?style=flat)](https://github.com/ivans-innovation-lab/my-company-blog-materialized-view/releases/latest)
 
 *BlogPost. Query side - Materialized view. Spring Boot. CQRS. Eventsourcing. Axonframework.*
 
-## [my-company-project-domain](https://ivans-innovation-lab.github.io/my-company-project-domain) [![CircleCI](https://circleci.com/gh/ivans-innovation-lab/my-company-project-domain.svg?style=svg)](https://circleci.com/gh/ivans-innovation-lab/my-company-project-domain) [![release](http://github-release-version.herokuapp.com/github/ivans-innovation-lab/my-company-project-domain/release.svg?style=flat)](https://github.com/ivans-innovation-lab/my-company-project-domain/releases/latest)
+## [my-company-project-domain (backend)](https://ivans-innovation-lab.github.io/my-company-project-domain) [![CircleCI](https://circleci.com/gh/ivans-innovation-lab/my-company-project-domain.svg?style=svg)](https://circleci.com/gh/ivans-innovation-lab/my-company-project-domain) [![release](http://github-release-version.herokuapp.com/github/ivans-innovation-lab/my-company-project-domain/release.svg?style=flat)](https://github.com/ivans-innovation-lab/my-company-project-domain/releases/latest)
 
 *Project aggregate. Command side. Spring Boot. CQRS. Eventsourcing. Axonframework.*
 
-## [my-company-project-materialized-view](https://ivans-innovation-lab.github.io/my-company-project-materialized-view) [![CircleCI](https://circleci.com/gh/ivans-innovation-lab/my-company-project-materialized-view.svg?style=svg)](https://circleci.com/gh/ivans-innovation-lab/my-company-project-materialized-view) [![release](http://github-release-version.herokuapp.com/github/ivans-innovation-lab/my-company-project-materialized-view/release.svg?style=flat)](https://github.com/ivans-innovation-lab/my-company-project-materialized-view/releases/latest)
+## [my-company-project-materialized-view (backend)](https://ivans-innovation-lab.github.io/my-company-project-materialized-view) [![CircleCI](https://circleci.com/gh/ivans-innovation-lab/my-company-project-materialized-view.svg?style=svg)](https://circleci.com/gh/ivans-innovation-lab/my-company-project-materialized-view) [![release](http://github-release-version.herokuapp.com/github/ivans-innovation-lab/my-company-project-materialized-view/release.svg?style=flat)](https://github.com/ivans-innovation-lab/my-company-project-materialized-view/releases/latest)
 
 *Project. Query side - Materialized view. Spring Boot. CQRS. Eventsourcing. Axonframework.*
 
-## [my-company-team-domain](https://ivans-innovation-lab.github.io/my-company-team-domain) [![CircleCI](https://circleci.com/gh/ivans-innovation-lab/my-company-team-domain.svg?style=svg)](https://circleci.com/gh/ivans-innovation-lab/my-company-team-domain) [![release](http://github-release-version.herokuapp.com/github/ivans-innovation-lab/my-company-team-domain/release.svg?style=flat)](https://github.com/ivans-innovation-lab/my-company-team-domain/releases/latest)
+## [my-company-team-domain (backend)](https://ivans-innovation-lab.github.io/my-company-team-domain) [![CircleCI](https://circleci.com/gh/ivans-innovation-lab/my-company-team-domain.svg?style=svg)](https://circleci.com/gh/ivans-innovation-lab/my-company-team-domain) [![release](http://github-release-version.herokuapp.com/github/ivans-innovation-lab/my-company-team-domain/release.svg?style=flat)](https://github.com/ivans-innovation-lab/my-company-team-domain/releases/latest)
 
 *Team aggregate. Command side. Spring Boot. CQRS. Eventsourcing. Axonframework.*
 
-## [my-company-team-materialized-view](https://ivans-innovation-lab.github.io/my-company-team-materialized-view) [![CircleCI](https://circleci.com/gh/ivans-innovation-lab/my-company-team-materialized-view.svg?style=svg)](https://circleci.com/gh/ivans-innovation-lab/my-company-team-materialized-view) [![release](http://github-release-version.herokuapp.com/github/ivans-innovation-lab/my-company-team-materialized-view/release.svg?style=flat)](https://github.com/ivans-innovation-lab/my-company-team-materialized-view/releases/latest)
+## [my-company-team-materialized-view (backend)](https://ivans-innovation-lab.github.io/my-company-team-materialized-view) [![CircleCI](https://circleci.com/gh/ivans-innovation-lab/my-company-team-materialized-view.svg?style=svg)](https://circleci.com/gh/ivans-innovation-lab/my-company-team-materialized-view) [![release](http://github-release-version.herokuapp.com/github/ivans-innovation-lab/my-company-team-materialized-view/release.svg?style=flat)](https://github.com/ivans-innovation-lab/my-company-team-materialized-view/releases/latest)
 
 *Team. Query side - Materialized view. Spring Boot. CQRS. Eventsourcing. Axonframework.*
 
-## [my-company-common](https://ivans-innovation-lab.github.io/my-company-common) [![CircleCI](https://circleci.com/gh/ivans-innovation-lab/my-company-common.svg?style=svg)](https://circleci.com/gh/ivans-innovation-lab/my-company-common) [![release](http://github-release-version.herokuapp.com/github/ivans-innovation-lab/my-company-common/release.svg?style=flat)](https://github.com/ivans-innovation-lab/my-company-common/releases/latest)
+## [my-company-common (backend)](https://ivans-innovation-lab.github.io/my-company-common) [![CircleCI](https://circleci.com/gh/ivans-innovation-lab/my-company-common.svg?style=svg)](https://circleci.com/gh/ivans-innovation-lab/my-company-common) [![release](http://github-release-version.herokuapp.com/github/ivans-innovation-lab/my-company-common/release.svg?style=flat)](https://github.com/ivans-innovation-lab/my-company-common/releases/latest)
 
 *Common and shared libraries. Domain events.*
 
