@@ -6,12 +6,6 @@ subtitle: Architecture, culture and process
 
 The source code of this lab is open, and hosted on Github within the ['ivans-innovation-lab' organziation](https://github.com/ivans-innovation-lab). Each project has its own git repository.
 
-Apache Maven is used as a project management and comprehension tool. Maven supports project aggregation in addition to project inheritance. Maven processes projects with multiple modules so you can work with them more effectively.
-
-Domain Driven Design is applied through Event Sourcing and CQRS. How Event Sourcing enables deployment flexibility - **the application can be deployed as a [monolithic](#monolithic) or as a [microservices](#microservices)**.
-
-Please read the [Documentation](https://www.gitbook.com/read/book/ivans-innovation-lab/my-company).
-
 ![Dependiencies - tree](https://github.com/ivans-innovation-lab/ivans-innovation-lab.github.io/raw/master/img/my-company-dependencies.png)
 
 ---
