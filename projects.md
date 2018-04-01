@@ -46,10 +46,19 @@ Additionally, application exposes a REST API that is consumed by [my-company-ang
 
 ##  [my-company-angular-fe (frontend)](https://ivans-innovation-lab.github.io/my-company-angular-fe) [![CircleCI](https://circleci.com/gh/ivans-innovation-lab/my-company-angular-fe.svg?style=svg)](https://circleci.com/gh/ivans-innovation-lab/my-company-angular-fe)
 
-*Angular 5. Atomic design methodology. Feature and presentational components.*
+*Angular. Atomic design methodology. Feature and presentational components.*
 
 ### Description
 The application consumes a [my-company-monolith (backend)](https://ivans-innovation-lab.github.io/my-company-monolith) that exposes a JWT enabled authorization (OAuth2) endpoints for managing (CRUD operations) `blog posts`, `projects` and `teams`.
+
+### Components/Modules (Dependencies)
+- [my-company-angular-fe-presentational-components](https://github.com/ivans-innovation-lab/my-company-angular-fe-presentational-components)
+- [my-company-angular-fe-shared](https://github.com/ivans-innovation-lab/my-company-angular-fe-shared)
+- [my-company-angular-fe-blog](https://github.com/ivans-innovation-lab/my-company-angular-fe-blog)
+- [my-company-angular-fe-team](https://github.com/ivans-innovation-lab/my-company-angular-fe-team)
+- [my-company-angular-fe-users](https://github.com/ivans-innovation-lab/my-company-angular-fe-users)
+- [my-company-angular-fe-projects](https://github.com/ivans-innovation-lab/my-company-angular-fe-projects)
+
 
 ---
 # Microservices
