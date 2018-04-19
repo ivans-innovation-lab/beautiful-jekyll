@@ -1,7 +1,12 @@
 ---
 layout: post
 title: API and Business Strategy
-tags: [Strategy, API, REST, Business]
+tags:
+  - Strategy
+  - API
+  - REST
+  - Business
+published: false
 ---
 
 The data and services made available via your [APIs](https://en.wikipedia.org/wiki/Application_programming_interface) are consumed by your employees (B2E), your customers (B2C), or other businesses (B2B).
